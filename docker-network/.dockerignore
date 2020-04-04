@@ -1,0 +1,5 @@
+# Ignore everything ...
+**
+
+# ... but the jar file
+!/target/*.jar
