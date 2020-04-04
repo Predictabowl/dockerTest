@@ -13,4 +13,5 @@ cache:
       - $HOME/.m2
 
 script:
-   - mvn -f dockerExample/pom.xml clean verify -Pdocker
+#   - mvn -f dockerExample/pom.xml clean verify -Pdocker
+   - mvn -f docker-network/pom.xml clean verify
